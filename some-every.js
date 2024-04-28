@@ -51,7 +51,7 @@ Examples:
 
 function hasNoDuplicates(arr) {
     return arr.every(function(val){
-        return arr.indexOf(val) === arr.indexOf(val);
+        return arr.indexOf(val) === arr.lastIndexOf(val);
     })
 }
 
